@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body background="music.jpeg">
+<div class="sounds">
+    <div class="sound"><h1>A</h1><br>Boom<audio src="sounds/boom.wav" controls id="boom" hidden="true">A</audio></div>
+    <div class="sound"><h1>S</h1><br>Clap<audio src="sounds/clap.wav" controls id="clap" hidden="true"></audio></div>
+    <div class="sound"><h1>D</h1><br>Hihat<audio src="sounds/hihat.wav" controls id="hihat" hidden="true"></audio></div>
+    <div class="sound"><h1>F</h1><br>Kick<audio src="sounds/kick.wav" controls id="kick" hidden="true"></audio></div>
+    <div class="sound"><h1>G</h1><br>Openhat<audio src="sounds/openhat.wav" controls id ="openhat" hidden="true"></audio></div>
+    <div class="sound"><h1>H</h1><br>Ride<audio src="sounds/ride.wav" controls id="ride" hidden="true"></audio></div>
+    <div class="sound"><h1>J</h1><br>Snare<audio src="sounds/snare.wav" controls id="snare" hidden="true"></audio></div>
+    <div class="sound"><h1>K</h1><br>Tink<audio src="sounds/tink.wav" controls id="tink" hidden="true"></audio></div>
+    <div class="sound"><h1>L</h1><br>Tom<audio src="sounds/tom.wav" controls id="tom" hidden="true"></audio></div>
+
+</div>
+<div class="buttons">
+    <div class="channels">
+        <h1>Channel 1</h1>
+        <button id="recordBtn1"><img src="rec.jpg" id="imgRecBtn1"></button><br>
+        <button id="playBtn1"><img src="play.jpg"></button>
+    </div>
+    <div class="channels">
+        <h1>Channel 2</h1>
+        <button id="recordBtn2"><img src="rec.jpg" id="imgRecBtn2"></button><br>
+        <button id="playBtn2"><img src="play.jpg"></button>
+    </div>
+    <div class="channels">
+        <h1>Channel 3</h1>
+        <button id="recordBtn3"><img src="rec.jpg" id="imgRecBtn3"></button><br>
+        <button id="playBtn3"><img src="play.jpg"></button>
+    </div>
+    <div class="channels">
+        <h1>Channel 4</h1>
+        <button id="recordBtn4"><img src="rec.jpg" id="imgRecBtn4"></button><br>
+        <button id="playBtn4"><img src="play.jpg"></button>
+    </div>
+</div>
+    <script type="module" src="play.js">
+    </script>
+</body>
+</html>
